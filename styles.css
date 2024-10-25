@@ -1,0 +1,40 @@
+CSS
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.menu-item {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 10px;
+  flex: 1;
+  min-width: 250px;
+  box-sizing: border-box;
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra para un efecto 3D */
+}
+
+/* Personalizamos los colores de cada elemento */
+.menu-item:nth-child(1) {
+  background-color: #e6f7ff; /* Azul claro */
+}
+.menu-item:nth-child(2) {
+  background-color: #ffefd5; /* Amarillo claro */
+}
+.menu-item:nth-child(3) {
+  background-color: #f2f2f2; /* Gris claro */
+}
+.menu-item:nth-child(4) {
+  background-color: #e5e5e5; /* Gris más oscuro */
+}
+.menu-item:nth-child(5) {
+  background-color: #ffcccb; /* Rosa claro */
+}
